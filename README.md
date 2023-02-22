@@ -7,11 +7,15 @@ As wikipedia says the bisection method is a root-finding method that applies to 
 
 ## Usage
 
-'''java 
+```java
 
 # instance of bisection class
 Bisection b = new Bisection();
 
-# returns a root.
+# returns a root of f(x) = x^2 - 1 for x1 = -1 and x2 = 5.
 b.bisection(-1, 5)
-'''
+
+```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
